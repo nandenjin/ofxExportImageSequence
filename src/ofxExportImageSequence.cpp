@@ -1,5 +1,8 @@
 #include "ofxExportImageSequence.h"
 
+#include <io.h>
+#include <fcntl.h>
+
 #include "tiff.h"
 #include "tiffio.h"
 
